@@ -9,8 +9,8 @@ const translations = {
         hero: {
             label: "Technical Engineering Lead | Cross-Team Delivery & System Design",
             available: "Available for opportunities",
-            subtitle: "Senior Full-Stack Developer specializing in API integrations and enterprise system connectivity.",
-            summary: "I build backend systems and integrations that connect enterprise platforms. Over a decade of experience spanning banking, semiconductor manufacturing, and media enterprises in Singapore.",
+            subtitle: "Technical Engineering Lead specializing in API integrations and enterprise system connectivity.",
+            summary: "I own backend architecture and integration patterns for complex platforms. I guide engineering teams on design reviews, standards, and production readiness. Over a decade of experience across banking, semiconductor manufacturing, and media enterprises in Singapore.",
             contact: "Get in Touch",
             years: "Years Experience",
             projects: "Projects Delivered",
@@ -154,8 +154,8 @@ const translations = {
         hero: {
             label: "テクニカルエンジニアリングリード｜クロスチームデリバリー＆システム設計",
             available: "お仕事募集中",
-            subtitle: "API連携とエンタープライズシステム接続を専門とするシニアフルスタックデベロッパー。",
-            summary: "エンタープライズプラットフォームを接続するバックエンドシステムと連携機能を構築しています。銀行、半導体製造、メディア企業での10年以上の経験があります。",
+            subtitle: "API連携とエンタープライズシステム接続を専門とするテクニカルエンジニアリングリード。",
+            summary: "複雑なプラットフォームにおけるバックエンドアーキテクチャと連携パターンを主導します。設計レビュー、標準化、本番品質についてチームをリードします。シンガポールの銀行、半導体製造、メディア企業で10年以上の経験があります。",
             contact: "お問い合わせ",
             years: "年の経験",
             projects: "プロジェクト実績",
