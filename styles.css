@@ -355,10 +355,30 @@ main {
     margin-bottom: 8px;
 }
 
-.skill-card p {
+.skill-card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skill-card li {
     font-size: 14px;
     color: var(--text-muted);
     line-height: 1.6;
+    padding-left: 18px;
+    position: relative;
+}
+
+.skill-card li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 6px;
+    height: 6px;
+    background: var(--text-muted);
+    border-radius: 50%;
 }
 
 /* Timeline */

@@ -24,10 +24,48 @@ const translations = {
         },
         skills: {
             title: "Skills",
-            backend: "Backend",
-            integration: "Integration",
-            databases: "Databases",
-            platforms: "Platforms"
+            backend: {
+                title: "Backend Engineering",
+                item1: "Own service design and delivery across critical domains",
+                item2: "Guide patterns for reliability, performance, and security",
+                item3: "Define standards for APIs, data contracts, and error handling",
+                item4: "Review designs and code for maintainability at scale"
+            },
+            architecture: {
+                title: "Architecture & System Design",
+                item1: "Define system boundaries, ownership, and integration paths",
+                item2: "Balance short-term delivery with long-term scalability",
+                item3: "Drive technical decisions across teams and stakeholders",
+                item4: "Ensure designs are reviewable, testable, and operable"
+            },
+            integration: {
+                title: "Integration & APIs",
+                item1: "Lead enterprise API integrations and contract alignment",
+                item2: "Set authentication and authorization standards",
+                item3: "Coordinate dependency management across teams",
+                item4: "Reduce risk with versioning and backward compatibility"
+            },
+            databases: {
+                title: "Databases",
+                item1: "Design schemas for consistency and performance",
+                item2: "Define data governance and access controls",
+                item3: "Plan migrations with minimal downtime",
+                item4: "Monitor and tune for production stability"
+            },
+            cloud: {
+                title: "Cloud & DevOps",
+                item1: "Own deployment strategy and release safety",
+                item2: "Define monitoring, alerting, and incident response",
+                item3: "Drive automation for repeatable environments",
+                item4: "Ensure compliance for production operations"
+            },
+            leadership: {
+                title: "Engineering Leadership",
+                item1: "Set engineering standards and review practices",
+                item2: "Align teams on priorities and delivery plans",
+                item3: "Mentor engineers and grow technical ownership",
+                item4: "Drive cross-team decision making and governance"
+            }
         },
         work: {
             title: "Experience",
@@ -131,10 +169,48 @@ const translations = {
         },
         skills: {
             title: "スキル",
-            backend: "バックエンド",
-            integration: "システム連携",
-            databases: "データベース",
-            platforms: "プラットフォーム"
+            backend: {
+                title: "バックエンドエンジニアリング",
+                item1: "重要ドメインにおけるサービス設計とデリバリーを主導",
+                item2: "信頼性・性能・セキュリティの標準を定義",
+                item3: "API、データ契約、エラーハンドリングの規約を整備",
+                item4: "保守性を重視した設計とコードレビューを実施"
+            },
+            architecture: {
+                title: "アーキテクチャ設計",
+                item1: "システム境界、責任範囲、連携経路を定義",
+                item2: "短期デリバリーと長期スケーラビリティを両立",
+                item3: "チーム横断の技術意思決定をリード",
+                item4: "レビュー可能で検証しやすい設計を担保"
+            },
+            integration: {
+                title: "連携・API",
+                item1: "エンタープライズAPI連携と契約整合を主導",
+                item2: "認証・認可の標準を策定",
+                item3: "依存関係を整理しチーム間連携を推進",
+                item4: "バージョニングで互換性リスクを低減"
+            },
+            databases: {
+                title: "データベース",
+                item1: "整合性と性能を意識したスキーマ設計",
+                item2: "データガバナンスとアクセス管理を定義",
+                item3: "ダウンタイム最小の移行計画を策定",
+                item4: "本番安定性のための監視とチューニング"
+            },
+            cloud: {
+                title: "クラウド＆DevOps",
+                item1: "デプロイ戦略と安全なリリースを統括",
+                item2: "監視・アラート・インシデント対応を設計",
+                item3: "再現性のある環境構築を自動化",
+                item4: "本番運用のコンプライアンスを担保"
+            },
+            leadership: {
+                title: "エンジニアリングリーダーシップ",
+                item1: "標準化とレビュー文化を定着させる",
+                item2: "優先順位とデリバリープランを整合",
+                item3: "技術オーナーシップの成長を支援",
+                item4: "横断的な意思決定とガバナンスを推進"
+            }
         },
         work: {
             title: "職務経歴",
