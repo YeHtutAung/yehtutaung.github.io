@@ -572,6 +572,27 @@ main {
     margin: 0;
 }
 
+.project-live-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border-hover);
+    background: var(--bg);
+    color: var(--text);
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.project-live-link:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--bg-card-hover);
+}
+
 /* Values */
 .values-grid {
     display: grid;

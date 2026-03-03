@@ -150,7 +150,8 @@ const translations = {
                     postgres: "PostgreSQL",
                     rbac: "RBAC",
                     worker: "Async Worker"
-                }
+                },
+                live: "Live Platform"
             },
         },
         values: {
@@ -359,7 +360,8 @@ translations.ja.projects.fe = {
         postgres: "PostgreSQL",
         rbac: "RBAC",
         worker: "\u975e\u540c\u671f\u30ef\u30fc\u30ab\u30fc"
-    }
+    },
+    live: "\u30e9\u30a4\u30d6\u30b5\u30a4\u30c8"
 };
 
 // Get nested translation value
