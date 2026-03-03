@@ -113,6 +113,22 @@ const translations = {
                 title: "ACRA Integration",
                 desc: "Automated business entity verification with Singapore's corporate regulator. Data transformation between ACRA and SAP structures."
             },
+            smart: {
+                title: "Smart City Project (Karen)",
+                roleLabel: "Role:",
+                role: "Project Manager / Technical Coordinator",
+                desc: "Government Smart City program overseeing the implementation of Huawei's eLTE Rapid communication infrastructure.",
+                item1: "Led coordination between Myanmar government stakeholders and Huawei operations teams",
+                item2: "Supervised multinational engineering teams during deployment and operational rollout",
+                item3: "Ensured technical alignment, regulatory compliance, and execution efficiency",
+                item4: "Served as escalation point for cross-team technical and operational challenges",
+                item5: "Supported large-scale infrastructure enablement for public-sector modernization",
+                tags: {
+                    city: "Smart City",
+                    huawei: "Huawei eLTE",
+                    lead: "Project Leadership"
+                }
+            },
             finacle: {
                 title: "Finacle Core Banking",
                 desc: "Core banking platform for AGD Bank. Transaction processing and account management module development."
@@ -362,6 +378,23 @@ translations.ja.projects.fe = {
         worker: "\u975e\u540c\u671f\u30ef\u30fc\u30ab\u30fc"
     },
     live: "\u30e9\u30a4\u30d6\u30b5\u30a4\u30c8"
+};
+
+translations.ja.projects.smart = {
+    title: "\u30b9\u30de\u30fc\u30c8\u30b7\u30c6\u30a3\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ab\u30ec\u30f3\u5dde\uff09",
+    roleLabel: "\u5f79\u5272\uff1a",
+    role: "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30de\u30cd\u30fc\u30b8\u30e3\u30fc / \u30c6\u30af\u30cb\u30ab\u30eb\u30b3\u30fc\u30c7\u30a3\u30cd\u30fc\u30bf\u30fc",
+    desc: "\u653f\u5e9c\u4e3b\u5c0e\u306e\u30b9\u30de\u30fc\u30c8\u30b7\u30c6\u30a3\u8a08\u753b\u3067\u3001Huawei eLTE Rapid\u901a\u4fe1\u57fa\u76e4\u306e\u5c0e\u5165\u3092\u7d71\u62ec\u3002",
+    item1: "\u30df\u30e3\u30f3\u30de\u30fc\u653f\u5e9c\u306e\u95a2\u4fc2\u8005\u3068Huawei\u904b\u7528\u30c1\u30fc\u30e0\u306e\u9023\u643a\u3092\u4e3b\u5c0e",
+    item2: "\u5c55\u958b\u304a\u3088\u3073\u904b\u7528\u79fb\u884c\u671f\u9593\u306b\u304a\u3044\u3066\u3001\u591a\u56fd\u7c4d\u30a8\u30f3\u30b8\u30cb\u30a2\u30c1\u30fc\u30e0\u3092\u7d71\u62ec",
+    item3: "\u6280\u8853\u6574\u5408\u3001\u898f\u5236\u9075\u5b88\u3001\u5b9f\u884c\u52b9\u7387\u3092\u62c5\u4fdd",
+    item4: "\u30af\u30ed\u30b9\u30c1\u30fc\u30e0\u306e\u6280\u8853\u30fb\u904b\u7528\u8ab2\u984c\u306b\u5bfe\u3059\u308b\u30a8\u30b9\u30ab\u30ec\u30fc\u30b7\u30e7\u30f3\u7a93\u53e3\u3092\u62c5\u5f53",
+    item5: "\u516c\u5171\u90e8\u9580\u306e\u73fe\u4ee3\u5316\u3092\u652f\u3048\u308b\u5927\u898f\u6a21\u30a4\u30f3\u30d5\u30e9\u6574\u5099\u3092\u63a8\u9032",
+    tags: {
+        city: "\u30b9\u30de\u30fc\u30c8\u30b7\u30c6\u30a3",
+        huawei: "Huawei eLTE",
+        lead: "\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u30ea\u30fc\u30c0\u30fc\u30b7\u30c3\u30d7"
+    }
 };
 
 // Get nested translation value
