@@ -116,7 +116,42 @@ const translations = {
             finacle: {
                 title: "Finacle Core Banking",
                 desc: "Core banking platform for AGD Bank. Transaction processing and account management module development."
-            }
+            },
+            fe: {
+                title: "FE Certification Practice Platform (AI-Orchestrated System Architecture)",
+                desc: "Solution architecture initiative where system boundaries, delivery constraints, and governance remain human-led while implementation throughput is accelerated with AI as a senior engineering partner.",
+                model: {
+                    title: "AI-Orchestrated Engineering Model",
+                    desc: "Architecture and constraints are human-led; implementation is AI-accelerated via structured prompt frameworks and iterative validation."
+                },
+                cloud: {
+                    title: "Cloud Deployment (AWS)",
+                    desc: "Containerized Next.js app and background worker deployed on AWS EC2 with PostgreSQL persistence."
+                },
+                pdf: {
+                    title: "Intelligent PDF Ingestion Pipeline",
+                    desc: "Asynchronous worker parsing multi-format exam PDFs, performing image rendering, cropping, and multi-page stitching."
+                },
+                auth: {
+                    title: "Secure Auth & RBAC",
+                    desc: "Google OAuth + email/password authentication with role-based access control and owner bootstrap."
+                },
+                analytics: {
+                    title: "Operational Analytics",
+                    desc: "Real-time user registration trends and activity dashboards with daily/weekly/monthly aggregation."
+                },
+                monitoring: {
+                    title: "AI-Assisted Monitoring & Debugging",
+                    desc: "Structured logging and AI-supported root cause analysis for parsing and validation edge cases."
+                },
+                tags: {
+                    next: "Next.js",
+                    aws: "AWS EC2",
+                    postgres: "PostgreSQL",
+                    rbac: "RBAC",
+                    worker: "Async Worker"
+                }
+            },
         },
         values: {
             title: "How I Work",
@@ -288,6 +323,42 @@ const translations = {
             phone: "電話",
             connect: "つながる"
         }
+    }
+};
+
+translations.ja.projects.fe = {
+    title: "FE\u8cc7\u683c\u8a66\u9a13\u7df4\u7fd2\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\uff08AI\u4e3b\u5c0e\u30b7\u30b9\u30c6\u30e0\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\uff09",
+    desc: "\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u4e3b\u4f53\u306e\u53d6\u7d44\u3067\u3001\u30b7\u30b9\u30c6\u30e0\u5883\u754c\u3001\u958b\u767a\u5236\u7d04\u3001\u30ac\u30d0\u30ca\u30f3\u30b9\u306f\u4eba\u9593\u304c\u4e3b\u5c0e\u3057\u3001AI\u3092\u30b7\u30cb\u30a2\u5b9f\u88c5\u30d1\u30fc\u30c8\u30ca\u30fc\u3068\u3057\u3066\u6d3b\u7528\u3057\u3001\u5b9f\u88c5\u751f\u7523\u6027\u3092\u5411\u4e0a\u3055\u305b\u307e\u3059\u3002",
+    model: {
+        title: "AI\u30aa\u30fc\u30b1\u30b9\u30c8\u30ec\u30fc\u30c8\u578b\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u30e2\u30c7\u30eb",
+        desc: "\u30a2\u30fc\u30ad\u30c6\u30af\u30c1\u30e3\u3068\u5236\u7d04\u306f\u4eba\u9593\u4e3b\u5c0e\u3067\u8a2d\u8a08\u3057\u3001\u5b9f\u88c5\u306f\u69cb\u9020\u5316\u30d7\u30ed\u30f3\u30d7\u30c8\u3068\u53cd\u5fa9\u7684\u691c\u8a3c\u306b\u3088\u308aAI\u3067\u52a0\u901f\u3057\u307e\u3059\u3002"
+    },
+    cloud: {
+        title: "AWS\u30af\u30e9\u30a6\u30c9\u30c7\u30d7\u30ed\u30a4",
+        desc: "\u30b3\u30f3\u30c6\u30ca\u5316\u3057\u305fNext.js\u30a2\u30d7\u30ea\u3068\u30d0\u30c3\u30af\u30b0\u30e9\u30a6\u30f3\u30c9\u30ef\u30fc\u30ab\u30fc\u3092AWS EC2\u306b\u914d\u5099\u3057\u3001PostgreSQL\u3067\u30c7\u30fc\u30bf\u3092\u6c38\u7d9a\u5316\u3057\u307e\u3059\u3002"
+    },
+    pdf: {
+        title: "\u77e5\u80fd\u7684PDF\u53d6\u8fbc\u307f\u30d1\u30a4\u30d7\u30e9\u30a4\u30f3",
+        desc: "\u975e\u540c\u671f\u30ef\u30fc\u30ab\u30fc\u304c\u8907\u6570\u5f62\u5f0f\u306e\u8a66\u9a13PDF\u3092\u89e3\u6790\u3057\u3001\u753b\u50cf\u30ec\u30f3\u30c0\u30ea\u30f3\u30b0\u3001\u30af\u30ed\u30c3\u30d7\u3001\u8907\u6570\u30da\u30fc\u30b8\u7d50\u5408\u3092\u5b9f\u884c\u3057\u307e\u3059\u3002"
+    },
+    auth: {
+        title: "\u5b89\u5168\u306a\u8a8d\u8a3c\u30fbRBAC",
+        desc: "Google OAuth\u3068\u30e1\u30fc\u30eb/\u30d1\u30b9\u30ef\u30fc\u30c9\u8a8d\u8a3c\u3092\u63d0\u4f9b\u3057\u3001\u30ed\u30fc\u30eb\u30d9\u30fc\u30b9\u30a2\u30af\u30bb\u30b9\u5236\u5fa1\u3068\u30aa\u30fc\u30ca\u30fc\u521d\u671f\u5316\u3092\u7d44\u307f\u8fbc\u307f\u307e\u3059\u3002"
+    },
+    analytics: {
+        title: "\u904b\u7528\u30a2\u30ca\u30ea\u30c6\u30a3\u30af\u30b9",
+        desc: "\u30e6\u30fc\u30b6\u30fc\u767b\u9332\u30c8\u30ec\u30f3\u30c9\u3068\u6d3b\u52d5\u30c0\u30c3\u30b7\u30e5\u30dc\u30fc\u30c9\u3092\u30ea\u30a2\u30eb\u30bf\u30a4\u30e0\u3067\u53ef\u8996\u5316\u3057\u3001\u65e5\u6b21/\u9031\u6b21/\u6708\u6b21\u96c6\u8a08\u3092\u63d0\u4f9b\u3057\u307e\u3059\u3002"
+    },
+    monitoring: {
+        title: "AI\u652f\u63f4\u76e3\u8996\u30fb\u30c7\u30d0\u30c3\u30b0",
+        desc: "\u69cb\u9020\u5316\u30ed\u30b0\u3068AI\u652f\u63f4\u306e\u539f\u56e0\u5206\u6790\u306b\u3088\u308a\u3001\u89e3\u6790\u30fb\u691c\u8a3c\u306e\u30a8\u30c3\u30b8\u30b1\u30fc\u30b9\u3092\u8fc5\u901f\u306b\u89e3\u6c7a\u3057\u307e\u3059\u3002"
+    },
+    tags: {
+        next: "Next.js",
+        aws: "AWS EC2",
+        postgres: "PostgreSQL",
+        rbac: "RBAC",
+        worker: "\u975e\u540c\u671f\u30ef\u30fc\u30ab\u30fc"
     }
 };
 
