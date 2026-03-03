@@ -782,10 +782,14 @@ footer {
 
     .about-content {
         grid-template-columns: 1fr;
+        gap: 28px;
     }
 
     .about-image {
-        display: none;
+        position: static;
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
     }
 
     .hero-stats {
@@ -812,6 +816,15 @@ footer {
 
     .hero h1 {
         font-size: 40px;
+    }
+
+    .about-image {
+        max-width: 300px;
+    }
+
+    .profile-image {
+        height: auto;
+        aspect-ratio: 3 / 4;
     }
 
     .hero-actions {
@@ -876,5 +889,9 @@ footer {
     .contact-icon {
         width: 44px;
         height: 44px;
+    }
+
+    .about-image {
+        max-width: 260px;
     }
 }
