@@ -536,6 +536,42 @@ main {
     border-radius: 6px;
 }
 
+.project-subsections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.project-subsection {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    background: var(--bg);
+}
+
+.subsection-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    color: var(--accent);
+}
+
+.subsection-title h4 {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text);
+}
+
+.project-subsection p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
 /* Values */
 .values-grid {
     display: grid;
