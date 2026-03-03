@@ -451,6 +451,10 @@ main {
     border-radius: 6px;
 }
 
+.country-flag {
+    margin-left: 6px;
+}
+
 .job ul {
     list-style: none;
 }
